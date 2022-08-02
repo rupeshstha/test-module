@@ -24,6 +24,7 @@ class TestServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        //new code base
         $this->registerTranslations();
         $this->registerConfig();
         $this->registerViews();
