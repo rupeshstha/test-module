@@ -24,7 +24,7 @@ class TestServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //monorepo
+        //hello from mono repo
         $this->registerTranslations();
         $this->registerConfig();
         $this->registerViews();
