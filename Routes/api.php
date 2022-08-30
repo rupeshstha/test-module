@@ -17,4 +17,3 @@ Route::middleware('auth:api')->get('/test', function (Request $request) {
     return $request->user();
 });
 //testmessage
-//test
